@@ -171,7 +171,7 @@ function parseFrame( frameText, res )
   else
   {
     // if we have at least content-length bytes set lastChunk true
-    if ( res.headers['content-length'] <= res.rawBody.length )
+    if ( res.headers['content-length'] - 4 <= res.rawBody.length )
     {
       res.lastChunk = true
     }

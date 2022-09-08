@@ -1,6 +1,6 @@
 {
   "name": "minitor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Nodejs Wrappers for minitor Tor implementation",
   "gypfile": true,
   "main": "index.js",
