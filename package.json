@@ -1,0 +1,25 @@
+{
+  "name": "minitor",
+  "version": "1.0.0",
+  "description": "Nodejs Wrappers for minitor Tor implementation",
+  "gypfile": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [
+    "napi",
+    "tor"
+  ],
+  "author": "John Bland",
+  "license": "GPL-2.0",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "node-gyp": "^9.1.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^5.0.0"
+  }
+}
